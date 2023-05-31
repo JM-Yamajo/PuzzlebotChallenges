@@ -1,0 +1,32 @@
+# --- Configuracion iniciale del robot mobil ---
+r : 0.05  
+l : 0.18  
+
+wl : 0.0  
+wr : 0.0  
+
+pos_x : 0.0
+pos_y : 0.0
+orientation : 0.0   
+
+max_linear_vel : 0.15
+max_angular_vel : 0.25
+
+# --- Configuracion inicial del mensaje de velocidad ---
+linear_x : 0.0
+linear_y : 0.0
+linear_z : 0.0
+
+angular_x : 0.0
+angular_y : 0.0
+angular_z : 0.0
+
+# --- Configuracion inicial del controlador PID ---
+angular_kp : 0.75
+angular_ki : 0.2
+angular_kd : 0.075
+
+# --- Otros ---
+sample_time : 0.125
+traveled_distance : 0.0
+
