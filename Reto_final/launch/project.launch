@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<launch>
+    <node name="vision" pkg="puzzlebot_project" type="vision.py" output="screen"/>
+    <node name="decider" pkg="puzzlebot_project" type="process.py" output="screen"/>
+    <node name="controller" pkg="puzzlebot_project" type="control.py" output="screen"/>
+</launch>
