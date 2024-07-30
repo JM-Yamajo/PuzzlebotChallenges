@@ -1,0 +1,15 @@
+step : 0.025
+max_value : 20
+min_value : 10
+lon_top : 20
+lon_bottom : 10
+frecuencia: 0.25
+function : "sin"
+
+controller_kp: 0.55
+controller_kd: 0.001
+controller_ki: 0.22
+ganancia: 2
+
+caract: False
+pid: True
